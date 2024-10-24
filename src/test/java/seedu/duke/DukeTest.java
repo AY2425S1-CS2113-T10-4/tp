@@ -64,6 +64,7 @@ class ExpenseTrackerTest {
         Budget groceriesBudget = tracker.getBudgets().get("groceries");
         assertTrue(totalExpenses > groceriesBudget.getLimit(),
                 "The total expenses for groceries should exceed the budget limit.");
+    }}
 
 class ExpenseTest {
     @Test
